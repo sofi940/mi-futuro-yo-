@@ -1,0 +1,64 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 40px 0;
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Imagen */
+img {
+    max-width: 100%;
+}
+
+/* Skills con flex */
+#skills ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+#skills li {
+    background-color: #e0e7ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e3a8a;
+    color: white;
+}
