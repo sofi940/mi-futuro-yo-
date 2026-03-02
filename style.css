@@ -62,3 +62,22 @@ footer {
     background-color: #1e3a8a;
     color: white;
 }
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    #skills ul {
+        flex-direction: column;
+    }
+
+}
